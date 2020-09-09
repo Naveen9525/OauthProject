@@ -11,6 +11,7 @@ import org.springframework.security.oauth2.provider.token.TokenStore;
 @Configuration
 @EnableAuthorizationServer
 public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdapter {
+	
 
 	static final String CLIEN_ID = "client";
 	static final String CLIENT_SECRET = "$2y$08$LF7KeWX69wYC0/uXIcX6fOEGfboCiMNi20cRWFzzYYlwgq8trHScO";
