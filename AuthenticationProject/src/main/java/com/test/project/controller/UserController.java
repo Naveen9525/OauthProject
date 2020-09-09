@@ -17,6 +17,7 @@ public class UserController {
 
     @RequestMapping(value="/user", method = RequestMethod.GET)
     public List<User> listUser(){
+    	//change
         return userService.findAll();
     }
 
